@@ -1,2 +1,2 @@
-# homework5
-SI 339 Flex Box HW
+# homework_5
+Starter code for Homework 5 - Flex
