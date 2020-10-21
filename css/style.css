@@ -167,7 +167,6 @@ header{
 }
 
 .nav_links{
-  display: flex;
   display: block;
   flex-direction: column;
 }
@@ -207,7 +206,7 @@ header{
   .nav_links{
     /*Your code here again.*/  
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .nav_item a{
