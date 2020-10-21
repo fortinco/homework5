@@ -161,11 +161,14 @@ header{
   border-bottom: 3px solid #50C7C7;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .nav_links{
   display: block;
+  flex-direction: column;
 }
 
 .nav_item a{
@@ -194,11 +197,15 @@ header{
 
   /* Navbar */
   header{
-    /*Your code here again.*/  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;  
   }
 
   .nav_links{
     /*Your code here again.*/  
+    flex-direction: column;
   }
 
   .nav_item a{
