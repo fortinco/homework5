@@ -78,7 +78,6 @@ footer{
    animation-name: logo_wiggle;
    -webkit-animation-duration: 15s;
    animation-duration: 15s;
-   
 }
 
 /* Cards! */
@@ -86,6 +85,10 @@ footer{
     min-height: 500px;
     /*Your code here.*/
     /*Don't forget to vertically and horizontally alight the card*/
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   
 }
 
@@ -95,7 +98,7 @@ footer{
   border-radius: 7px;
   padding: 0 0 50px 0;
   /*Your code here.*/
-  /*Take a look at flex-basis*/
+  flex-basis: 400px;
 
 }
 
@@ -141,7 +144,9 @@ footer{
 /* Gallery! */
 .gallery{
   min-height: 600px;
-  /*Your code here again.*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .gallery > img{
@@ -154,11 +159,13 @@ footer{
 header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
-  /*Your  code here again.*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .nav_links{
-  /*Your code here again.*/
+  display: block;
 }
 
 .nav_item a{
@@ -177,7 +184,7 @@ header{
 
   /* Cards! */
   .card {
-    /*Your  code here again.*/
+    flex-basis: 225px;
   }
 
   .card_big{
