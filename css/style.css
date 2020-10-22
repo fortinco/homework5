@@ -76,8 +76,8 @@ footer{
 #logo{
    -webkit-animation-name: logo_wiggle; 
    animation-name: logo_wiggle;
-   -webkit-animation-duration: 15s;
-   animation-duration: 15s;
+   -webkit-animation-duration: 3s;
+   animation-duration: 3s;
 }
 
 /* Cards! */
@@ -167,7 +167,7 @@ header{
 }
 
 .nav_links{
-  display: flex;
+  display: block;
   flex-direction: column;
 }
 
@@ -220,7 +220,30 @@ header{
   }
   /*Your code here again.*/
   /*You will want four selectors*/  
+  body {
+  	background-image: none;
+  }
+
+  .pricing {
+  	align-items: baseline;
+  }
+
+  #gallery {
+  	display: none;
+  }
+
+  .gallery {
+  	display: none;
+  }
 }
 
 /*Your code here again.*/ 
 /*Add media query to handle reduced-motion*/
+@media screen and (prefers-reduced-motion: reduce) { 
+#logo{
+   -webkit-animation-name: logo_wiggle; 
+   animation-name: logo_wiggle;
+   -webkit-animation-duration: 0s;
+   animation-duration: 0s;
+}
+}
